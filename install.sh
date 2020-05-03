@@ -18,7 +18,7 @@ VERSIONPATH="/usr/share/xiaoqiang"
 
 MOUNTFILESPATH="/tmp/langmod/tmp"
 echo " Model ($MODEL)"
-if [ $MODEL == "R3D" ]; then
+if [ $(cat /proc/xiaoqiang/model) == "R3D" ]; then
   echo "Supported Model ($MODEL)"
 else
   echo "Unsupported Model"
