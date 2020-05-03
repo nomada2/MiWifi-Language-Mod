@@ -11,7 +11,7 @@
 clear
 
 ## Check The Router Hardware Model
-$MODEL=$(cat /proc/xiaoqiang/model)
+MODEL=$(cat /proc/xiaoqiang/model)
 LUAPATH="/usr/lib/lua/luci"
 WEBPATH="/www/xiaoqiang/web"
 VERSIONPATH="/usr/share/xiaoqiang"
